@@ -1,0 +1,122 @@
+.open-sans-normal 
+{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.text-p{
+  color: rgb(255, 62, 3);
+} 
+
+nav
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px 200px;
+
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+.nav-title{
+  font-weight: bolder;
+  font-size: 45px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.dark-2 {
+  color: #270141;
+  
+}
+.bt{
+  background-color: rgb(65, 11, 65);
+  color: #d6c8c8;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  border-radius: 3px 4px;
+  border-color: black;
+}
+
+.hi {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  color: rgb(253, 0, 51);
+}
+.talha {
+  font-weight:bold;
+  font-size: 50px;
+  font-style: oblique;
+  font-family: monospace;
+  color: rgb(3, 3, 51);
+  
+}
+.banner-pic {
+  width: 550px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px 0px 150px;
+
+}
+.banner-content{
+  max-width: 550px;
+}
+.header{
+  background-image: url('../asset/developer.png'), url(../asset/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+.banner-description {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: brown;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.section-description {
+  font-size: 18px;
+  color: rgb(118, 4, 224);
+}
+.sc-bg {
+  background-color: rgb(236, 229, 218);
+}
+.about{
+  border-radius: 10px;
+  padding: 100px 120px;
+  text-align: center;
+  margin-top: 100px;
+  
+}
+main{
+  max-width: 60%;
+  margin: 0 auto;
+}
+.item-description{
+  font-weight: 600;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
